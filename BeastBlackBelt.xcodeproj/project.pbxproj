@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7804DBBB1E3BB921005551D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBBA1E3BB921005551D2 /* AppDelegate.swift */; };
-		7804DBBD1E3BB921005551D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBBC1E3BB921005551D2 /* ViewController.swift */; };
+		7804DBBD1E3BB921005551D2 /* ToBeastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBBC1E3BB921005551D2 /* ToBeastTableViewController.swift */; };
 		7804DBC01E3BB921005551D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7804DBBE1E3BB921005551D2 /* Main.storyboard */; };
 		7804DBC31E3BB921005551D2 /* BeastBlackBelt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBC11E3BB921005551D2 /* BeastBlackBelt.xcdatamodeld */; };
 		7804DBC51E3BB921005551D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7804DBC41E3BB921005551D2 /* Assets.xcassets */; };
 		7804DBC81E3BB921005551D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7804DBC61E3BB921005551D2 /* LaunchScreen.storyboard */; };
 		7804DBD31E3BB921005551D2 /* BeastBlackBeltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBD21E3BB921005551D2 /* BeastBlackBeltTests.swift */; };
 		7804DBDE1E3BB921005551D2 /* BeastBlackBeltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBDD1E3BB921005551D2 /* BeastBlackBeltUITests.swift */; };
+		7804DBEC1E3BBE28005551D2 /* BeastedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBEB1E3BBE28005551D2 /* BeastedTableViewController.swift */; };
+		7804DBEE1E3BBE53005551D2 /* AddBeastItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBED1E3BBE53005551D2 /* AddBeastItemViewController.swift */; };
+		7804DBF01E3BC0C7005551D2 /* ToBeastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBEF1E3BC0C7005551D2 /* ToBeastCell.swift */; };
+		7804DBF21E3BC3BB005551D2 /* BeastedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBF11E3BC3BB005551D2 /* BeastedCell.swift */; };
+		7804DBF41E3BC477005551D2 /* AddBeastItemViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBF31E3BC477005551D2 /* AddBeastItemViewControllerDelegate.swift */; };
+		7804DBF61E3BCF2B005551D2 /* BeastedTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804DBF51E3BCF2B005551D2 /* BeastedTableViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,7 @@
 /* Begin PBXFileReference section */
 		7804DBB71E3BB921005551D2 /* BeastBlackBelt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeastBlackBelt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7804DBBA1E3BB921005551D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7804DBBC1E3BB921005551D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7804DBBC1E3BB921005551D2 /* ToBeastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBeastTableViewController.swift; sourceTree = "<group>"; };
 		7804DBBF1E3BB921005551D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7804DBC21E3BB921005551D2 /* BeastBlackBelt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeastBlackBelt.xcdatamodel; sourceTree = "<group>"; };
 		7804DBC41E3BB921005551D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		7804DBD91E3BB921005551D2 /* BeastBlackBeltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeastBlackBeltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7804DBDD1E3BB921005551D2 /* BeastBlackBeltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastBlackBeltUITests.swift; sourceTree = "<group>"; };
 		7804DBDF1E3BB921005551D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7804DBEB1E3BBE28005551D2 /* BeastedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastedTableViewController.swift; sourceTree = "<group>"; };
+		7804DBED1E3BBE53005551D2 /* AddBeastItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBeastItemViewController.swift; sourceTree = "<group>"; };
+		7804DBEF1E3BC0C7005551D2 /* ToBeastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToBeastCell.swift; sourceTree = "<group>"; };
+		7804DBF11E3BC3BB005551D2 /* BeastedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastedCell.swift; sourceTree = "<group>"; };
+		7804DBF31E3BC477005551D2 /* AddBeastItemViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBeastItemViewControllerDelegate.swift; sourceTree = "<group>"; };
+		7804DBF51E3BCF2B005551D2 /* BeastedTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastedTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				7804DBBA1E3BB921005551D2 /* AppDelegate.swift */,
-				7804DBBC1E3BB921005551D2 /* ViewController.swift */,
+				7804DBF11E3BC3BB005551D2 /* BeastedCell.swift */,
+				7804DBEF1E3BC0C7005551D2 /* ToBeastCell.swift */,
+				7804DBF51E3BCF2B005551D2 /* BeastedTableViewControllerDelegate.swift */,
+				7804DBF31E3BC477005551D2 /* AddBeastItemViewControllerDelegate.swift */,
+				7804DBED1E3BBE53005551D2 /* AddBeastItemViewController.swift */,
+				7804DBBC1E3BB921005551D2 /* ToBeastTableViewController.swift */,
+				7804DBEB1E3BBE28005551D2 /* BeastedTableViewController.swift */,
 				7804DBBE1E3BB921005551D2 /* Main.storyboard */,
 				7804DBC41E3BB921005551D2 /* Assets.xcassets */,
 				7804DBC61E3BB921005551D2 /* LaunchScreen.storyboard */,
@@ -265,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7804DBBD1E3BB921005551D2 /* ViewController.swift in Sources */,
+				7804DBEE1E3BBE53005551D2 /* AddBeastItemViewController.swift in Sources */,
+				7804DBEC1E3BBE28005551D2 /* BeastedTableViewController.swift in Sources */,
+				7804DBBD1E3BB921005551D2 /* ToBeastTableViewController.swift in Sources */,
+				7804DBF21E3BC3BB005551D2 /* BeastedCell.swift in Sources */,
+				7804DBF41E3BC477005551D2 /* AddBeastItemViewControllerDelegate.swift in Sources */,
 				7804DBBB1E3BB921005551D2 /* AppDelegate.swift in Sources */,
+				7804DBF61E3BCF2B005551D2 /* BeastedTableViewControllerDelegate.swift in Sources */,
+				7804DBF01E3BC0C7005551D2 /* ToBeastCell.swift in Sources */,
 				7804DBC31E3BB921005551D2 /* BeastBlackBelt.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +446,7 @@
 				DEVELOPMENT_TEAM = D3797JW3ME;
 				INFOPLIST_FILE = BeastBlackBelt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CalvNgCodingDojo.BeastBlackBelt;
+				PRODUCT_BUNDLE_IDENTIFIER = CalvNgCodingDojo.StarWarsEncyclopedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -435,7 +459,7 @@
 				DEVELOPMENT_TEAM = D3797JW3ME;
 				INFOPLIST_FILE = BeastBlackBelt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CalvNgCodingDojo.BeastBlackBelt;
+				PRODUCT_BUNDLE_IDENTIFIER = CalvNgCodingDojo.StarWarsEncyclopedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
