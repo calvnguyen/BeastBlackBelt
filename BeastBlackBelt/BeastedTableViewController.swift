@@ -52,6 +52,31 @@ class BeastedTableViewController: UITableViewController {
         return cell
     }
     
+    // removal of items
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        
+        if editingStyle == .delete {
+            managedObjectContext.delete(beasted_items[indexPath.row])
+            
+            if managedObjectContext.hasChanges {
+                do
+                {
+                    try managedObjectContext.save()
+                    print("Success Deleting an item to core data")
+                } catch
+                {
+                    print("\(error)")
+                }
+            }
+            
+            
+            beasted_items.remove(at: indexPath.row)
+            
+            tableView.reloadData()
+        }
+        
+    }
+    
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return beasted_items.count
